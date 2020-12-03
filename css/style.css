@@ -1,5 +1,7 @@
 body{
-	background-color: grey;
+	height: 100%;
+	background-image: url("https://i.pinimg.com/originals/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg");
+	text-align: center;
 }
 
 .cool{
@@ -13,4 +15,26 @@ body{
 .cool.red{
 	visibility: visible;
 	background-color: red;
+}
+
+.bg {
+  /* The image used */
+  background-image: url("https://i.pinimg.com/originals/ef/7f/b1/ef7fb1b37078b6a2aef8e40710446bfa.jpg");
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+h1,
+p{
+	text-align: center;
+}
+
+.div{
+	text-align: center;
 }
